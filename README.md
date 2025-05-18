@@ -1,41 +1,125 @@
-# Neon XO
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Neon XO - README</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #00ffe0;
+      font-family: 'Orbitron', sans-serif;
+      padding: 40px;
+      line-height: 1.7;
+    }
 
-**Neon XO** — Neon Group MMC tərəfindən hazırlanmış, neon temalı müasir XO (XOX) oyunudur. Layihənin müəllifi: [Ferid18](https://github.com/Ferid18)
+    h1, h2, h3 {
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+    }
 
-## Xüsusiyyətlər
+    a {
+      color: #ff00ff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
 
-- Neon və klassik dizayn temaları
-- Oyunçu avatar seçimi
-- Səs effektləri və animasiyalar
-- Vaxtölçən (timer) və hərəkət tarixçəsi
-- Qalib üçün rəqs edən emoji animasiyası
-- Xalları sıfırlama funksiyası
-- Oyun statistikası və xal cədvəli
-- Azərbaycan dilində tam interfeys
+    a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 5px #ff00ff;
+    }
 
-## Quraşdırma və Başlama
+    code {
+      background-color: #222;
+      color: #0f0;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
 
-1. Layihəni yükləyin və ya klonlayın.
-2. `index.html` faylını brauzerdə açın.
+    .section {
+      margin-bottom: 40px;
+      padding: 20px;
+      border: 1px solid #222;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.02);
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+    }
 
-## Oyun Qaydaları
+    ul {
+      padding-left: 20px;
+    }
 
-- İki oyunçu və ya bir oyunçu kompüterə qarşı oynaya bilər.
-- Oyunçular növbə ilə X və O işarələrini 3x3-lük sahəyə yerləşdirir.
-- Məqsəd — üfüqi, şaquli və ya diaqonal olaraq ardıcıl 3 eyni işarə düzəltməkdir.
-- Bütün xanalar dolubsa və qalib yoxdursa, oyun heç-heçə bitir.
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
 
-- ## Demo
+  <h1>💡 Neon XO</h1>
 
-Oyunun canlı versiyasını buradan yoxlaya bilərsiniz:  
-[DEMO](https://ferid18.github.io/XO/)
+  <div class="section">
+    <p><strong>Neon XO</strong> — Neon Group MMC tərəfindən hazırlanmış, neon temalı müasir XO (XOX) oyunudur.</p>
+    <p><strong>Layiənin müəllifi:</strong> <a href="https://github.com/Ferid18" target="_blank">Ferid18</a></p>
+  </div>
 
-## Müəlliflik hüququ
+  <div class="section">
+    <h2>🚀 Xüsusiyyətlər</h2>
+    <ul>
+      <li>Neon və klassik dizayn temaları</li>
+      <li>Oyunçu avatar seçimi</li>
+      <li>Səs effektləri və animasiyalar</li>
+      <li>Vaxtölçən (timer) və hərəkət tarixçəsi</li>
+      <li>Qalib üçün rəqs edən emoji animasiyası</li>
+      <li>Xalları sıfırlama funksiyası</li>
+      <li>Oyun statistikası və xal cədvəli</li>
+      <li>Azərbaycan dilində tam interfeys</li>
+    </ul>
+  </div>
 
-© 2025 Neon XO | Neon Group MMC  
-Hazırladı: [Ferid18](https://github.com/Ferid18)  
-Bütün hüquqlar qorunur.
+  <div class="section">
+    <h2>📦 Quraşdırma və Başlama</h2>
+    <ol>
+      <li>Layihəni yükləyin və ya klonlayın.</li>
+      <li><code>index.html</code> faylını brauzerdə açın.</li>
+    </ol>
+  </div>
 
-## Lisenziya
+  <div class="section">
+    <h2>🎮 Oyun Qaydaları</h2>
+    <ul>
+      <li>İki oyunçu və ya bir oyunçu kompüterə qarşı oynaya bilər.</li>
+      <li>Oyunçular növbə ilə X və O işarələrini 3x3-lük sahəyə yerləşdirir.</li>
+      <li>Məqsəd — üfüqi, şaquli və ya diaqonal olaraq ardıcıl 3 eyni işarə düzəltməkdir.</li>
+      <li>Bütün xanalar dolubsa və qalib yoxdursa, oyun heç-heçə bitir.</li>
+    </ul>
+  </div>
 
-Bu layihə MIT lisenziyası ilə təqdim olunur.
+  <div class="section">
+    <h2>🌐 Demo</h2>
+    <p>Oyunun canlı versiyasını buradan yoxlaya bilərsiniz:</p>
+    <p><a href="https://ferid18.github.io/XO/" target="_blank">🔗 DEMO Link</a></p>
+  </div>
+
+  <div class="section">
+    <h2>🔒 Müəlliflik hüququ</h2>
+    <p>© 2025 Neon XO | Neon Group MMC</p>
+    <p>Hazırladı: <a href="https://github.com/Ferid18" target="_blank">Ferid18</a></p>
+    <p>Bütün hüquqlar qorunur.</p>
+  </div>
+
+  <div class="section">
+    <h2>📄 Lisenziya</h2>
+    <p>Bu layihə MIT lisenziyası ilə təqdim olunur.</p>
+  </div>
+
+  <footer>
+    🌟 Təşəkkürlər! Uğurlar və neon dolu oyunlar! 🎉
+  </footer>
+
+</body>
+</html>
