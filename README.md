@@ -25,6 +25,11 @@
 - Məqsəd — üfüqi, şaquli və ya diaqonal olaraq ardıcıl 3 eyni işarə düzəltməkdir.
 - Bütün xanalar dolubsa və qalib yoxdursa, oyun heç-heçə bitir.
 
+- ## Demo
+
+Oyunun canlı versiyasını buradan yoxlaya bilərsiniz:  
+[DEMO](https://ferid18.github.io/XO/)
+
 ## Müəlliflik hüququ
 
 © 2025 Neon XO | Neon Group MMC  
