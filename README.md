@@ -1,64 +1,5 @@
 <!DOCTYPE html>
 <html lang="az">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Neon XO - README</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      background: #0f0f0f;
-      color: #00ffe0;
-      font-family: 'Orbitron', sans-serif;
-      padding: 40px;
-      line-height: 1.7;
-    }
-
-    h1, h2, h3 {
-      color: #00ffff;
-      text-shadow: 0 0 10px #00ffff;
-    }
-
-    a {
-      color: #ff00ff;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    a:hover {
-      color: #ffffff;
-      text-shadow: 0 0 5px #ff00ff;
-    }
-
-    code {
-      background-color: #222;
-      color: #0f0;
-      padding: 4px 8px;
-      border-radius: 4px;
-    }
-
-    .section {
-      margin-bottom: 40px;
-      padding: 20px;
-      border: 1px solid #222;
-      border-radius: 10px;
-      background: rgba(255, 255, 255, 0.02);
-      box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 60px;
-      font-size: 14px;
-      color: #888;
-    }
-  </style>
-</head>
-<body>
 
   <h1>💡 Neon XO</h1>
 
@@ -121,5 +62,3 @@
     🌟 Təşəkkürlər! Uğurlar və neon dolu oyunlar! 🎉
   </footer>
 
-</body>
-</html>
