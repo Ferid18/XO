@@ -1,6 +1,6 @@
 # Neon XO
 
-**Neon XO** — Neon Group MCC tərəfindən hazırlanmış, neon temalı müasir XO (XOX) oyunudur. Layihənin müəllifi: [Ferid18](https://github.com/Ferid18)
+**Neon XO** — Neon Group MMC tərəfindən hazırlanmış, neon temalı müasir XO (XOX) oyunudur. Layihənin müəllifi: [Ferid18](https://github.com/Ferid18)
 
 ## Xüsusiyyətlər
 
