@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon XO</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Neon XO üçün CSS -->
+  
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle" title="Tema Dəyişdir">🌙</button>
+    <select class="theme-select" id="themeSelect" title="Tema Seç">
+        <option value="">Klassik</option>
+        <option value="neon" selected>Neon</option>
+    </select>
+    <div class="logo-anim"><span>❌</span> Neon XO <span>⭕</span></div>
+    <h1>Neon XO — Neon Group MCC</h1>
+    <div id="menu" class="card">
+        <label for="mode">Oyun rejimi</label>
+        <select id="mode">
+            <option value="2p">2 nəfərlik</option>
+            <option value="cpu">Kompüterə qarşı</option>
+        </select>
+        <label for="player1">1. Oyunçunun adı</label>
+        <input type="text" id="player1" placeholder="Oyunçu 1" value="Oyunçu 1">
+        <div class="avatar-select" id="avatar1">
+            <div class="avatar-option selected" data-avatar="😎">😎</div>
+            <div class="avatar-option" data-avatar="🐱">🐱</div>
+            <div class="avatar-option" data-avatar="🦄">🦄</div>
+            <div class="avatar-option" data-avatar="👾">👾</div>
+        </div>
+        <div id="player2div">
+            <label for="player2">2. Oyunçunun adı</label>
+            <input type="text" id="player2" placeholder="Oyunçu 2" value="Oyunçu 2">
+            <div class="avatar-select" id="avatar2">
+                <div class="avatar-option selected" data-avatar="🤖">🤖</div>
+                <div class="avatar-option" data-avatar="🐶">🐶</div>
+                <div class="avatar-option" data-avatar="🦊">🦊</div>
+                <div class="avatar-option" data-avatar="👻">👻</div>
+            </div>
+        </div>
+        <div id="difficultyDiv" style="display:none;">
+            <label for="difficulty">Çətinlik səviyyəsi</label>
+            <select id="difficulty">
+                <option value="easy">Asan</option>
+                <option value="medium">Orta</option>
+                <option value="hard">Çətin</option>
+                <option value="impossible">Çox çətin</option>
+            </select>
+        </div>
+        <button id="start">Oyuna başla</button>
+    </div>
+    <div id="game" class="card" style="display:none;">
+        <div class="scoreboard">
+            <div class="score" id="scoreX">❌ <span id="scoreXVal">0</span></div>
+            <div class="score" id="scoreO">⭕ <span id="scoreOVal">0</span></div>
+        </div>
+        <div class="player-info">
+            <div id="playerX" class="player"><span class="icon" id="iconX">❌</span> <span id="playerXName"></span></div>
+            <div id="playerO" class="player"><span class="icon" id="iconO">⭕</span> <span id="playerOName"></span></div>
+        </div>
+        <div id="status">Növbə: X</div>
+        <div id="timer" style="font-size:1.1rem;color:var(--accent2);margin-bottom:10px;"></div>
+        <div id="board"></div>
+        <div class="move-history" id="moveHistory"></div>
+        <button id="reset">Yenidən başlat</button>
+        <button id="playagain" style="display:none;">Təkrar oyna</button>
+        <button id="back" style="background:#e5e7eb;color:#333;margin-top:8px;">Menyuya qayıt</button>
+        <div class="stats" id="stats"></div>
+        <button id="resetScore" style="margin-top:8px;background:#fff;color:var(--accent);border:2px solid var(--accent);">Xalları sıfırla</button>
+    </div>
+    <div id="toast"></div>
+    <canvas class="confetti" id="confetti" style="display:none;"></canvas>
+    <audio id="moveSound" src="https://cdn.pixabay.com/audio/2022/07/26/audio_124bfae2b5.mp3"></audio>
+    <audio id="winSound" src="https://cdn.pixabay.com/audio/2022/07/26/audio_124bfae2b5.mp3"></audio>
+    <audio id="drawSound" src="https://cdn.pixabay.com/audio/2022/07/26/audio_124bfae2b5.mp3"></audio>
+    <!-- Neon XO üçün JS -->
+    <script src="script.js"></script>
+    <!--
+        Neon XO — Neon Group MCC tərəfindən kodlanıb.
+        Bütün hüquqlar qorunur © 2025 Neon Group MCC.
+    -->
+    <footer style="margin:32px 0 12px 0; color:var(--accent2); text-align:center; font-size:1rem;">
+        © 2025 Neon XO | Neon Group MCC | Hazırladı: <a href="https://github.com/Ferid18" style="color:var(--accent2);text-decoration:underline;" target="_blank">Ferid18</a>
+    </footer>
+</body>
+</html>
