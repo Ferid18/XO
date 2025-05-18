@@ -27,7 +27,7 @@
 
 ## Müəlliflik hüququ
 
-© 2025 Neon XO | Neon Group MCC  
+© 2025 Neon XO | Neon Group MMC  
 Hazırladı: [Ferid18](https://github.com/Ferid18)  
 Bütün hüquqlar qorunur.
 
